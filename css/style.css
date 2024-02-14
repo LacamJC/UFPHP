@@ -1,0 +1,40 @@
+.tabela{
+    /*background-color: red;*/
+    width: 50%;
+    padding: 20px 40px;
+}
+table{
+    border:1px solid black;            
+}
+
+table>thead{
+    font-weight: bold;
+}
+
+.validate
+{
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    display: block;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:600px){
+    .tabela{
+        width: 100%;
+    }
+    
+    .cubo
+    {
+        flex-direction: column;
+    }
+    
+    
+} 
+
+
+
+
+
